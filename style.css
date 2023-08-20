@@ -101,5 +101,44 @@ nav ul li:hover{
     gap: 20px;
 }
 
+.music-section{
+    padding-top: 50px;
+    background: var(--purple500);
+}
+
+.music-section .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+
+.ipad-iphone-images{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+button:hover{
+    opacity: .8;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.primary-btn{
+    background-color: #dc0000;
+    color: white;
+}
+
 
 
