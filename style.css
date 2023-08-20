@@ -27,6 +27,10 @@ header{
     height: 50px;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    box-shadow: 5px 5px 5px black;
 }
 
 .container{
@@ -67,6 +71,34 @@ nav ul li{
 }
 nav ul li:hover{
     border-bottom: 2px solid white;
+}
+
+.hero-sesction {
+    background-image: url(./images/hero_image.png);
+    height: 100vh;
+    background-size: cover;
+    /* Cover the entire element with the image */
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sesction h1 {
+    font-size: 96px;
+}
+
+.hero-sesction h3 {
+    font-size: 30px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    gap: 20px;
 }
 
 
