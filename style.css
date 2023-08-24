@@ -127,11 +127,13 @@ button{
     padding: 10px 15px;
     border: none;
     transition: .2s ease-in-out;
+    border-radius: 20px;
 }
 
 button:hover{
     opacity: .8;
     transition: .2s ease-in-out;
+    box-shadow: 8px 5px 1px rgb(144, 135, 135);
     cursor: pointer;
 }
 
@@ -140,5 +142,117 @@ button:hover{
     color: white;
 }
 
+.about-music{
+    padding-top: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto
+}
+
+.secondry-btn{
+    background: #270082;
+    color: white;
+    width: 118px;
+}
+
+.mid-page{
+    color: #f9f6ff;
+    margin-top: 20px;
+    background-image: url(images/video.png);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.top{
+    
+}
+
+.top-1{
+    width: 70%;
+}
+.top-1 p {
+    line-height: 1;
+    font-weight: bold;
+}
+
+.lower-mid{
+    display: flex;
+    margin-top: 30px;
+    margin: auto;
+    /* justify-content: center; */
+    margin-bottom: 30px;
+}
+
+.wrapper{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 40px;
+    gap: 6rem;
+}
+
+.giftcard{
+    width: 40%;
+    margin-left: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 45%;
+}
+
+.secondry-footer{
+    color: #f9f6ff;
+    background-color:#1b0058;
+    width: 100%;
+    height: 27vh;
+    /* margin: auto; */
+}
+
+.wrap{
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+}
+
+.foot{
+    width: 20%;
+}
+
+
+.foot ul li a{
+    line-height: .5;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.footer{
+    color:white;
+    padding: 10px;
+    width: 100%;
+    height: 7vh;
+    background-color: #270082;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
